@@ -69,7 +69,7 @@ function addHappyGif() {
         setTimeout(() => {
             gif.remove();
             existingGifs = existingGifs.filter(existingGif => existingGif !== gif); // Remove from the tracking array
-        }, 17000);
+        }, 5000);
     });
 }
 
