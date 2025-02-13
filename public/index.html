@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Happy Valentine's Day, My Love! ❤️</h1>
+            <button onclick="startExperience()">Start</button>
+        </div>
+
+        <div class="letters hidden">
+            <p class="letter">Hello Sweetie 🥰,</p>
+            <p class="letter">Happy valentines 😘</p>
+            <p class="letter">I love you more than words can say. ❤️</p>
+            <p class="letter">Can I be Your Valentino And You As My Valentina? </p>
+            <div class="button-container">
+                <button id="playButton" class="yes-button" onclick="showVideo()">Yes!!!❤️</button>
+                <button id="noButton" class="no-button" onclick="moveNoButton()">No 😜</button>
+            </div>                     
+        </div>
+        
+        <div class="video-container hidden">
+            <video id="video1">
+                <source src="valentines.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="gif-conatiner"></div>
+    
+     <!-- Heart Animations -->
+     <div class="hearts-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
